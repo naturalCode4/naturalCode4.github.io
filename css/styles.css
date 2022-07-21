@@ -111,7 +111,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.725rem + 5.7vw);
+  font-size: calc(2rem + 6vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -572,6 +572,9 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  font-size: 10vh;
+  color: var(--bs-orange);
+
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -11328,6 +11331,9 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+}
+#home-subheading {
+  font-size: 2.75rem;
 }
 
 #sideNav {
