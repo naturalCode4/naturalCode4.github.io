@@ -560,6 +560,10 @@ progress {
   }
 }
 
+.project-label {
+  font-size: .4em 
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
