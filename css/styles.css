@@ -563,6 +563,9 @@ progress {
 .project-label {
   font-size: .4em;
   color: black;
+  text-align: center;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 
 .list-unstyled {
