@@ -35,13 +35,5 @@ window.addEventListener('DOMContentLoaded', event => {
 
 const copyEmail = () => {
     navigator.clipboard.writeText("naturalcode4@gmail.com")
-    alert("Hi, I copied my email (naturalcode4@gmail.com) to your clipboard !")
-}
-
-const socialIconsHoverTexts = {
-    email: "Click to copy Adin's email address",
-    resume: "Get a copy of Adin's resume",
-    linkedin: "Visit Adin's LinkedIn page",
-    github: "Visit Adin's GitHub page",
-    facebook: "Visit Adin's Facebook page",
+    alert("Email Adin at naturalcode4@gmail.com ")
 }
