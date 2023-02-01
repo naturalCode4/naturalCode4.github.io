@@ -32,3 +32,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const copyEmail = () => {
+    navigator.clipboard.writeText("naturalcode4@gmail.com")
+    alert("Hi, I copied my email (naturalcode4@gmail.com) to your clipboard!")
+}

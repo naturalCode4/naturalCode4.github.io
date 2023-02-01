@@ -565,19 +565,37 @@ progress {
   list-style: none;
 }
 
+.list-inline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none;
 }
 
 .list-inline-item {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 10vh;
   color: var(--bs-orange);
-
+  margin-right: 0.6rem;
+  margin-left: 0.6rem
 }
-.list-inline-item:not(:last-child) {
+
+/* .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+} */
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 2.5vh;
 }
 
 .initialism {
@@ -11393,23 +11411,29 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 7rem;
+  width: 7rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem
 }
-.social-icons .social-icon:last-child {
-  margin-right: 0;
-}
+
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
 }
 
+.social-fab {
+  scale: 2
+}
+
 .dev-icons {
   font-size: 3rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 section.resume-section {
