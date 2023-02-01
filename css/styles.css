@@ -561,7 +561,8 @@ progress {
 }
 
 .project-label {
-  font-size: .4em 
+  font-size: .4em;
+  color: black;
 }
 
 .list-unstyled {
@@ -5874,13 +5875,33 @@ textarea.form-control-lg {
   border-left-color: #000;
 }
 
-.tooltip-inner {
-  max-width: 200px;
-  padding: 0.25rem 0.5rem;
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltip2text {
+  visibility: hidden;
+  width: 120px;
+  font-size: 1rem;
+  background-color: #495057;
   color: #fff;
   text-align: center;
-  background-color: #000;
-  border-radius: 0.25rem;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin-bottom: 12.5px;
+  
+  /* Position of the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip2:hover .tooltip2text {
+  visibility: visible;
 }
 
 .popover {
